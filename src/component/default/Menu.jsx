@@ -11,7 +11,7 @@ function Menu() {
     }
     return (
     <React.Fragment>
-        <header>
+        <header>    
             <nav className="navbar">
                 <div className="container">
                     <button className="btn-menu" onClick={openSidebar}>

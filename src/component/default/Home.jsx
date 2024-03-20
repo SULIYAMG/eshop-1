@@ -25,6 +25,7 @@ function Home() {
         readCategory()
     },[])
   return (
+    <React.Fragment>
     <div className="container">
         <div className="row">
             <div className="col">
@@ -52,6 +53,8 @@ function Home() {
             </div>
         <Outlet/>
     </div>
+    <Outlet/>
+    </React.Fragment>
   )
 }
 
