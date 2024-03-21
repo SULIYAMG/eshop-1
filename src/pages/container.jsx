@@ -9,6 +9,8 @@ import Home from '../component/default/Home'
 import Store from '../Screen/Product/Store'
 import ProductCart from '../Screen/Cart/ProductCart'
 import ProductCheckout from '../Screen/checkout/ProductCheckout'
+import ProductItem from '../Screen/Product/ProductItem'
+import SingleProduct from '../Screen/Product/SingleProduct'
 
 
 function Container() {
@@ -16,6 +18,7 @@ function Container() {
     <Routes>
         <Route path={`/`} element={<Home/>}>
             <Route path={`/`} element={<Store/>}/>
+            <Route path={`/product/:id`} element={<SingleProduct/>}/>
             <Route path={`cart`} element={<ProductCart/>}/>
             <Route path={`checkout`} element={<ProductCheckout/>}/>
         </Route>

@@ -51,7 +51,7 @@ function Home() {
                
                 </div>
             </div>
-        <Outlet/>
+        
     </div>
     <Outlet/>
     </React.Fragment>
